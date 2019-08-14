@@ -1,13 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import styles from 'styles/app.module';
 
-class App extends React.Component {
-  render() {
-    return (
-      <div className={styles.header}>Hello World!</div>
-    );
-  }
-}
+import Gallery from 'components/container/Gallery';
+
+import 'styles/app.scss';
+
+const App = () => (
+  <Gallery />
+);
 
 ReactDOM.render(<App />, document.getElementById('app'));
