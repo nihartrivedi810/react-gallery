@@ -1,5 +1,7 @@
 # react-gallery
 
+View Demo: https://nihartrivedi810.github.io/react-gallery/
+
 Features:
 - Responsive design (using bootstrap 4)
 - React Hooks using `react@16.9.2`
